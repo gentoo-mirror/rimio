@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4b4e555..114d256 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -70,8 +70,8 @@ set_target_properties (${PROJECT_NAME}_static PROPERTIES OUTPUT_NAME ${PROJECT_N
+ 
+ target_compile_options (${PROJECT_NAME}_static PRIVATE -nostdlib)
+ 
+-install (TARGETS ${PROJECT_NAME}_shared LIBRARY DESTINATION lib PUBLIC_HEADER DESTINATION include)
+-install (TARGETS ${PROJECT_NAME}_static ARCHIVE DESTINATION lib PUBLIC_HEADER DESTINATION include)
++install (TARGETS ${PROJECT_NAME}_shared PUBLIC_HEADER DESTINATION include)
++install (TARGETS ${PROJECT_NAME}_static PUBLIC_HEADER DESTINATION include)
+ 
+ # Tool Targets
+ if (BUILD_DESCRIBE_TOOL)

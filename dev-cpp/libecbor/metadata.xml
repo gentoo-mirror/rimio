@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>vasi@vilvoiu.ro</email>
+		<name>Vasile Vilvoiu</name>
+	</maintainer>
+	<longdescription>CBOR library with no dependencies, small memory footprint and code size, developed for both desktop and embedded applications</longdescription>
+</pkgmetadata>
