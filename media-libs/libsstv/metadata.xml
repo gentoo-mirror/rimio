@@ -5,8 +5,7 @@
         <email>vasi@vilvoiu.ro</email>
         <name>Vasile Vilvoiu</name>
     </maintainer>
-    <longdescription>CBOR library with no dependencies, small memory footprint and code size, developed for both desktop and embedded applications</longdescription>
     <upstream>
-        <remote-id type="github">rimio/libecbor</remote-id>
+        <remote-id type="github">rimio/libsstv</remote-id>
     </upstream>
 </pkgmetadata>
